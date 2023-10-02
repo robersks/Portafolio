@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,15 +12,18 @@
             margin: 0;
             padding: 0;
         }
+
         header {
             background-color: black;
             color: #fff;
             text-align: center;
             padding: 20px 0;
         }
+
         h1 {
             font-size: 36px;
         }
+
         .container {
             max-width: 800px;
             margin: 20px auto;
@@ -27,11 +31,21 @@
             background-color: #fff;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         }
+
+        a {
+            color: inherit; /* Esto hereda el color del texto normal */
+            text-decoration: none; /* Esto quita el subrayado de los enlaces */
+        }
+
+        a:hover{
+            color: orangered;
+        }
     </style>
 </head>
+
 <body>
     <header>
-        <h1>ROBERSKS</h1>
+        <a href="#" ><h1>ROBERSKS</h1></a>
         <h3>-- Rober Fabian Barreto --</h3>
     </header>
     <div class="container">
@@ -39,10 +53,17 @@
         <p>Bienvenido a mi página de portafolio. Aquí puedes encontrar algunos de mis trabajos y proyectos.</p>
         <h3>Proyectos Destacados</h3>
         <ul>
-            <li>Proyecto 1</li>
-            <li>Proyecto 2</li>
-            <li>Proyecto 3</li>
+            <a href="https://robersks.github.io/Presupuesto/" target="_blank">
+                <li>Presupuesto</li>
+            </a>
+            <a href="https://robersks.github.io/MinBody/" target="_blank">
+                <li>MinBody</li>
+            </a>
+            <a href="https://robersks.github.io/farcry/" target="_blank">
+                <li>Farcry</li>
+            </a>
         </ul>
     </div>
 </body>
+
 </html>
